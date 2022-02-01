@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="stylesheet.css">
+<title>Blogpost's of Kamil</title>
+<script src="code.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1 class="blogTitle">Kamil's Holiday-Food-blog</h1>
+        <div class="navigationbar">
+            <nav><a href="index.html">Home</a></nav>
+            <nav><a href="aboutme.html">About Me</a></nav>
+            <nav class="dropdown">
+                <button class="dropbtn">Blog Posts</button>
+                <div class="dropdown-content">
+                    <a href="index.html">Home</a>
+                    <a href="künefe.html">Künefe</a>
+                    <a href="adana.html">Adana</a>
+                    <a href="icliköfte.html">Icli Köfte</a>
+                    <a href="testikebab.html">Testi Kebabi</a>
+                   </nav>
+                 </div>
+        </div>
+    </header>
+         <h1 class="headline">In a random Restaurant</h1>
+         <div class="container">
+         <div class="infoCard">
+             <img class="blogImage" src="iclikoefte.jpg" alt="icli köfte">
+          </div>
+     </div>
+     
+         <h2 style="text-align: center;">Sometimes is random a good thing..</h2>
+     
+     <div class="textFieldLeft">
+         <h4> Ingredients: </h4>
+         <p><strong>For the filling:</strong></p>
+         <ul>
+             <li>1/4 pound ground beef</li>
+             <li>1 small onion, finely chopped</li>
+             <li>1/3 cup walnut halves, or shelled pistachios, ground</li>
+             <li>1/2 teaspoon salt</li>
+             <li>1/2 teaspoon freshly ground black pepper</li>
+             <li>1/2 teaspoon paprika</li>
+             <li>1/2 teaspoon hot red pepper flakes</li>
+         </ul>
+         <p><strong>For the case:</strong></p>
+         <ul>
+             <li>1/3 cup fine bulgur</li>
+             <li>1 tablespoon ground beef</li>
+             <li>1/2 teaspoon freshly ground black pepper</li>
+             <li>1/2 teaspoon salt</li>
+             <li>1/4 cup boiled mashed potato</li>
+             <li>1/2 large egg, beaten</li>
+             <li>1 small onion, grated</li>
+             <li>3 to 4 cups sunflower oil, or other light oil for frying</li>
+             <li>Fresh Italian parsley, for garnish</li>
+         </ul>
+     </div>
+     <div class="mainTextField">
+     <p>icli köfte is a dish from the city of Gaziantep. Unfortunately I haven't been to Gaziantep yet, 
+         but this would be my next destination. Fortunately, however, I was able to find a good restaurant during my vacation where I could try Icli Kofte.
+        <p>when i placed the order in the restaurant, i was pleased to find that the icli köftes were well portioned. One icli köfte will not fill you up, but 4-5 pieces should definitely fill you up. It's a challenge and you can turn it into an eating contest to eat as many icli koftes as you can.
+        Cola goes particularly well with icli köfte.</p>   
+     </p>
+     <div id="likeArea">
+        <button class="like_btn">
+            <span id="icon"><i class="like"></i></span>
+            <span id="count">0</span> Like
+         </button>
+        </div> 
+    </div><div class="textFieldRight">
+     <h3>Comments: </h3>
+     <div class="allComments"></div>
+     <p id="comment"></p>
+     <form>
+        <label for="nickname"></label>
+        <input id="nickname" type="text" placeholder="Nickname" required>
+        <label for="userComment"></label>
+        <textarea id="userComment" placeholder="Add your Comment" required></textarea>
+        <br>
+        <input id="button" type="submit" value="Send">
+    </form>
+     </div>
+         </body>
+         </html>
+         
+     
