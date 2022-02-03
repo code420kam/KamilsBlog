@@ -7,9 +7,7 @@ const nickname = document.getElementById("nickname");
 
 
 addButton.addEventListener("click", () => 
-{
-    
-    
+  {
     let elemForNick = document.createElement("p");
     elemForNick.setAttribute("id" ,"userNick")
     elemForNick.innerText = nickname.value;
@@ -19,8 +17,7 @@ addButton.addEventListener("click", () =>
     comments.appendChild(elemForNick);
     comments.appendChild(newEl);
     userInput.value ="";
-    
-})
+  })
 
 // codeblock for the like button
 

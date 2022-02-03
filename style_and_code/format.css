@@ -1,0 +1,70 @@
+@import url("main.css");
+
+body
+{
+    background-color: rgb(20, 192, 135);
+    
+}
+nav 
+{
+    display: block;
+    float: left;
+    padding: 8px;
+    font-style: oblique;
+    font-weight: bold;
+}
+h1
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.headline
+{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.blogTitle 
+{
+    text-align: center;
+    font-variant: small-caps;
+}
+.previewHeading
+{
+    text-align: center;
+}
+
+.imagePreview
+{
+    width: 40%;
+    height: 45%;
+    display: block;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 15px;
+}
+.blogImage
+{
+    filter:drop-shadow(10px 20px 10px gray);
+    width: 60%;
+    height: 60%;
+}
+.dropdown-content a:hover {background-color: black}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+#userNick 
+{
+    font-weight: bold;
+    border: 1px solid black;
+    color: yellow;
+}
+
+li
+{
+  list-style-type: square;
+}
+li::marker
+{
+    color: #0346ac;
+}

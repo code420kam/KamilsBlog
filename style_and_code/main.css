@@ -1,8 +1,4 @@
-body
-{
-    background-color: rgb(20, 192, 135);
-    
-}
+@import url("format.css");
 
 .navigationbar
 {
@@ -10,32 +6,6 @@ border: 5px solid rgba(6, 120, 196, 0.534);
 border-radius: 10px;
 display: inline-block;
 }
-nav {
-    display: block;
-    float: left;
-    padding: 8px;
-    font-style: oblique;
-    font-weight: bold;
-  }
-
-h1
-{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-}
-
-.headline
-{
-    text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.blogTitle 
-{
-    text-align: center;
-    font-variant: small-caps;
-}
-
 .container
 {
     display: flex;
@@ -50,7 +20,6 @@ h1
     margin-right: auto;
     text-align: center;  
 }
-
 .blogPreview 
 {   
     width: 80%;
@@ -60,30 +29,8 @@ h1
     text-align: center;
     
 }
-
-.previewHeading
+.dropdownButton
 {
-    text-align: center;
-}
-
-.imagePreview
-{
-    width: 40%;
-    height: 45%;
-    display: block;
-    margin-left: 30%;
-    margin-right: 30%;
-    margin-top: 15px;
-}
-
-.blogImage
-{
-    filter:drop-shadow(10px 20px 10px gray);
-    width: 60%;
-    height: 60%;
-}
-
-.dropdownButton {
     background-color: #4CAF50;
     color: white;
     padding: 16px;
@@ -91,30 +38,27 @@ h1
     border: none;
     cursor: pointer;
 }
-
-.dropdown {
+.dropdown
+{
     position: relative;
     display: inline-block;
 }
 
-.dropdown-content {
+.dropdown-content 
+{
     display: none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
-.dropdown-content a {
+.dropdown-content a 
+{
     color: grey;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
 }
-
-.dropdown-content a:hover {background-color: black}
-.dropdown:hover .dropdown-content {display: block;}
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
-
 .mainTextField
 {
     font-family: Arial, sans-serif;
@@ -145,8 +89,8 @@ h1
     margin-left: 65%;
     margin-right: 1%;
 }
-
-.like_btn {
+.like_btn
+{
     
     padding: 10px 15px;
     background: #0080ff;
@@ -158,26 +102,9 @@ h1
     border: none;
     cursor: pointer;
     margin-left: 85%;
-  }
-
-
-  #userNick {
-      font-weight: bold;
-      border: 1px solid black;
-      color: yellow;
-  }
-
-  li{
-    list-style-type: square;
-  }
-  li::marker{
-      color: #0346ac;
-  }
-
-  .aboutMe
-  {
+}
+.aboutMe
+{
       text-align: center;
       font-size: x-large;
-  }
-  
-  
+}
