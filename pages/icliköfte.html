@@ -2,13 +2,14 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="\style_and_code/format.css">
 <link rel="stylesheet" href="\style_and_code/main.css">
 <title>Blogpost's of Kamil</title>
 <script src="\style_and_code/code.js" defer></script>
 </head>
-<body>
-    <header>
+<body class="container">
+    <header class="blogheader">
         <h1 class="blogTitle">Kamil's Holiday-Food-blog</h1>
         <div class="navigationbar">
             <nav><a href="/">Home</a></nav>
@@ -25,17 +26,27 @@
                  </div>
         </div>
     </header>
-         <h1 class="headline">In a random Restaurant</h1>
-         <div class="container">
-         <div class="infoCard">
+    <div class="headline">
+         <h1>In a random Restaurant</h1>
+    </div>
+         <div class="blogField">
              <figure>
              <img class="blogImage" src="\img/iclikoefte.jpg" alt="icli köfte">
              <figcaption>Stuffed bulgur shells</figcaption>
              </figure>
-          </div>
-     </div>
-         <h2>Sometimes is random a good thing..</h2>
-         <div class="containerTextField">
+             <h2>Sometimes is random a good thing..</h2>
+             <p>icli köfte is a dish from the city of Gaziantep. Unfortunately I haven't been to Gaziantep yet, 
+                but this would be my next destination. Fortunately, however, I was able to find a good restaurant during my vacation where I could try Icli Kofte.
+               <p>when i placed the order in the restaurant, i was pleased to find that the icli köftes were well portioned. One icli köfte will not fill you up, but 4-5 pieces should definitely fill you up. It's a challenge and you can turn it into an eating contest to eat as many icli koftes as you can.
+               Cola goes particularly well with icli köfte.</p>   
+            </p>
+            <div id="likeArea">
+               <button class="like_btn">
+                   <span id="icon"><i class="like"></i></span>
+                   <span id="count">0</span> Like
+                </button>
+            </div> 
+        </div>
      <div class="textFieldLeft">
          <h4> Ingredients: </h4>
          <p><strong>For the filling:</strong></p>
@@ -61,34 +72,21 @@
              <li>Fresh Italian parsley, for garnish</li>
          </ul>
      </div>
-     <div class="mainTextField">
-     <p>icli köfte is a dish from the city of Gaziantep. Unfortunately I haven't been to Gaziantep yet, 
-         but this would be my next destination. Fortunately, however, I was able to find a good restaurant during my vacation where I could try Icli Kofte.
-        <p>when i placed the order in the restaurant, i was pleased to find that the icli köftes were well portioned. One icli köfte will not fill you up, but 4-5 pieces should definitely fill you up. It's a challenge and you can turn it into an eating contest to eat as many icli koftes as you can.
-        Cola goes particularly well with icli köfte.</p>   
-     </p>
-     <div id="likeArea">
-        <button class="like_btn">
-            <span id="icon"><i class="like"></i></span>
-            <span id="count">0</span> Like
-         </button>
-        </div> 
-    </div><div class="textFieldRight">
+    <div class="textFieldRight">
      <h3>Comments: </h3>
      <div class="allComments"></div>
      <p id="comment"></p>
      <form>
         <label for="nickname"></label>
         <input id="nickname" type="text" placeholder="Nickname" required>
-        <label for="userComment"></label>
+        <label for="userComment"></label><br>
         <textarea id="userComment" placeholder="Add your Comment" required></textarea>
         <br>
         <input id="button" type="submit" value="Send">
     </form>
      </div>
-     </div>
-     <div class="partinglineIcliköfte"></div>
-     <footer class="footline"><h4 class="author">Author: Kamil Durhan</h4>
+     <div class="footer">
+     <footer><h4 class="author">Author: Kamil Durhan</h4>
          <h5>Share this on</h5>
              <a href="https://www.facebook.com/sharer/sharer.php?u=kamilsblog">
                  <img class="logo" src="\img/facebooklogo.svg" alt="facebooklogo"></a>
@@ -98,6 +96,6 @@
                  <img class="logo" src="\img/pinterestlogo.svg" alt="pinterestlogo"></a>
              <a href="https://www.linkedin.com/shareArticle?mini=true&url=kamilsblog">
                  <img class="logo" src="\img/linkedinlogo.svg" alt="linkedInlogo"></a>
-     </footer>
+     </footer></div>
      </body>
      </html>

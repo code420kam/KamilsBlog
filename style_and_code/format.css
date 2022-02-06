@@ -28,6 +28,8 @@ u
 h2
 {
     text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: beige;
 }
 .headline
 {
@@ -51,7 +53,7 @@ h2
     display: grid;
     margin-left: 30%;
     margin-right: 30%;
-    margin-top: 15px;
+    
 }
 .blogImage
 {
@@ -98,3 +100,5 @@ blockquote
     color: turquoise;
     font-size: 35px;
 }
+
+

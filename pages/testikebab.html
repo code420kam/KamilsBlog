@@ -2,13 +2,14 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="\style_and_code/format.css">
 <link rel="stylesheet" href="\style_and_code/main.css">
 <title>Blogpost's of Kamil</title>
 <script src="\style_and_code/code.js" defer></script>
 </head>
-<body>
-    <header>
+<body class="container">
+    <header class="blogheader">
         <h1 class="blogTitle">Kamil's Holiday-Food-blog</h1>
         <div class="navigationbar">
             <nav><a href="/">Home</a></nav>
@@ -25,17 +26,30 @@
                  </div>
         </div>
     </header>
-    <h1 class="headline">a trip to Nevsehir</h1>
-        <div class="container">
-        <div class="infoCard">
+        <div class="blogField">
+            <h1>a trip to Nevsehir</h1>
             <figure>
             <img class="blogImage" src="\img/testikebap.jpg" alt="testi kebabi">
             <figcaption>Testi Kebab in Nevsehir with a cup of ayran</figcaption>
             </figure>
+            <h2>A great place to live...</h2>
+            <p>In the further course of our we are to Nevsehir. This is very far east of Turkey. 
+                It's a great place with a beautiful castle and a great history. <u>One dish I can recommend is testi kebabi.</u>
+                <br>Since handmade clay work is very common in this city and it is also one of the symbols of the city,
+                 it is not surprising that this tool is also used in the preparation of food.
+                 <br>The name "Testi" is meaning jug which is just made by clay. this clay vessel is then sealed with dough and roasted in a stone oven.
+                  After a certain time, the vessel is then removed from the hot oven and, with a great show, the vessel is broken very precisely and professionally.
+                  What came out of it you can see very well in the picture above.
+                  <p>You can drink a cola or a fresh ayran. There are various salads and appetizers as side dishes. These are usually not on the bill in 
+                  Turkey because these side dishes are free additions to the house.</p>    
+            </p>
+            <div id="likeArea">
+                <button class="like_btn">
+                    <span id="icon"><i class="like"></i></span>
+                    <span id="count">0</span> Like
+                 </button>
+                </div> 
          </div>
-    </div>  
-        <h2>A great place to live...</h2>   
-        <div class="containerTextField">
     <div class="textFieldLeft">
         <h4> Ingredients: </h4>
         <p><strong>For 2 Persons:</strong></p>
@@ -54,31 +68,14 @@
         </ul>
     
     </div>
-    <div class="mainTextField">
-    <p>In the further course of our we are to Nevsehir. This is very far east of Turkey. 
-        It's a great place with a beautiful castle and a great history. <u>One dish I can recommend is testi kebabi.</u>
-        <br>Since handmade clay work is very common in this city and it is also one of the symbols of the city,
-         it is not surprising that this tool is also used in the preparation of food.
-         <br>The name "Testi" is meaning jug which is just made by clay. this clay vessel is then sealed with dough and roasted in a stone oven.
-          After a certain time, the vessel is then removed from the hot oven and, with a great show, the vessel is broken very precisely and professionally.
-          What came out of it you can see very well in the picture above.
-          <p>You can drink a cola or a fresh ayran. There are various salads and appetizers as side dishes. These are usually not on the bill in 
-          Turkey because these side dishes are free additions to the house.</p>    
-    </p>
-    <div id="likeArea">
-        <button class="like_btn">
-            <span id="icon"><i class="like"></i></span>
-            <span id="count">0</span> Like
-         </button>
-        </div> 
-</div><div class="textFieldRight">
+    <div class="textFieldRight">
     <h3>Comments: </h3>
     <div class="allComments"></div>
     <p id="comment"></p>
     <form>
         <label for="nickname"></label>
         <input id="nickname" type="text" placeholder="Nickname" required>
-        <label for="userComment"></label>
+        <label for="userComment"></label><br>
         <textarea id="userComment" placeholder="Add your Comment" required></textarea>
         <br>
         <input id="button" type="submit" value="Send">
@@ -86,8 +83,8 @@
 </div>
 </div>
 
-<div class="partinglineTestikebabi"></div>
-<footer class="footline"><h4 class="author">Author: Kamil Durhan</h4>
+<div class="footer">
+<footer><h4 class="author">Author: Kamil Durhan</h4>
     <h5>Share this on</h5>
         <a href="https://www.facebook.com/sharer/sharer.php?u=kamilsblog">
             <img class="logo" src="\img/facebooklogo.svg" alt="facebooklogo"></a>
@@ -97,6 +94,6 @@
             <img class="logo" src="\img/pinterestlogo.svg" alt="pinterestlogo"></a>
         <a href="https://www.linkedin.com/shareArticle?mini=true&url=kamilsblog">
             <img class="logo" src="\img/linkedinlogo.svg" alt="linkedInlogo"></a>
-</footer>
+</footer></div>
 </body>
 </html>

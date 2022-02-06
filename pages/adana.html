@@ -2,13 +2,14 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="\style_and_code/format.css">
 <link rel="stylesheet" href="\style_and_code/main.css">
 <title>Blogpost's of Kamil</title>
 <script src="\style_and_code/code.js" defer></script>
 </head>
-<body>
-    <header>
+<body class="container">
+    <header class="blogheader">
         <h1 class="blogTitle">Kamil's Holiday-Food-blog</h1>
         <div class="navigationbar">
             <nav><a href="/">Home</a></nav>
@@ -25,17 +26,37 @@
                  </div>
         </div>
     </header>
-    <h1 class="headline">My first Food after I visited Turkey</h1>
-        <div class="container">
-        <div class="infoCard">
+    <div class="headline">
+    <h1>My first Food after I visited Turkey</h1>
+    </div>
+        <div class="blogField">
             <figure>
                 <img class="blogImage" src="\img/adana.jpg" alt="adana">
                 <figcaption>A plate of very tasteful meat</figcaption>
             </figure>
+            <h2>The Welcoming Part to Turkey was very nice..</h2>
+            <p>
+                I was visiting a small restaurant that day and was delighted to find out that they had Adana Kebab there. 
+                As an absolute meat lover, you cannot avoid trying this dish.
+                <br>The taste buds in the mouth are stimulated very finely with the certain sharpness. What should not be missing with the meal is the drink, 
+                which is called <a href="https://en.wikipedia.org/wiki/Turnip_water">"Salgam"</a>.
+                <br>A further website explains what exactly it is. The drink has its very own taste and bears no resemblance to other typical drinks such as Cola,
+                 Fanta or Sprite and is one of the absolute favorites when eating an Adana skewer.
+                 <p>A dish that is confusingly similar to the Adana Kebab but is less well known is the Urfa Kebab. The main difference lies in the spiciness and flavor. 
+                While the Adana kebab is spicy and heavily seasoned, the Urfa kebab is less seasoned and has no spiciness.</p>
+                <br>However, after my remaining family members entered the country individually, we all met at this small local restaurant and had dinner together,
+                 developing interesting conversations and filling our stomachs with very good food.
+                 <p>As reported above, the main drink at Adana Kebab is actually salgam, but not everyone likes this drink. Alternatively, you can also be satisfied with a fresh Ayran.
+                  Ayran is the Turkish national drink, which is made from yoghurt and milk and is mostly known worldwide.</p>    
+            </p>
+            <div id="likeArea">
+                <button class="like_btn">
+                    <span id="icon"><i class="like"></i></span>
+                    <span id="count">0</span> Like
+                 </button>
+            </div> 
          </div>
     </div>
-        <h2>The Welcoming Part to Turkey was very nice..</h2>
-        <div class="containerTextField">
     <div class="textFieldLeft">
         <h4> Ingredients: </h4>
         <p><strong>For the Kebab:</strong></p>
@@ -55,29 +76,6 @@
             <li>2 medium tomatoes, thinly sliced</li>
             <li>Pickled sport peppers or pepperoncini</li>
         </ul>
-    </div>
-    <div class="mainTextField">
-    <p>
-        I was visiting a small restaurant that day and was delighted to find out that they had Adana Kebab there. 
-        As an absolute meat lover, you cannot avoid trying this dish.
-        <br>The taste buds in the mouth are stimulated very finely with the certain sharpness. What should not be missing with the meal is the drink, 
-        which is called <a href="https://en.wikipedia.org/wiki/Turnip_water">"Salgam"</a>.
-        <br>A further website explains what exactly it is. The drink has its very own taste and bears no resemblance to other typical drinks such as Cola,
-         Fanta or Sprite and is one of the absolute favorites when eating an Adana skewer.
-         <p>A dish that is confusingly similar to the Adana Kebab but is less well known is the Urfa Kebab. The main difference lies in the spiciness and flavor. 
-        While the Adana kebab is spicy and heavily seasoned, the Urfa kebab is less seasoned and has no spiciness.</p>
-        <br>However, after my remaining family members entered the country individually, we all met at this small local restaurant and had dinner together,
-         developing interesting conversations and filling our stomachs with very good food.
-         <p>As reported above, the main drink at Adana Kebab is actually salgam, but not everyone likes this drink. Alternatively, you can also be satisfied with a fresh Ayran.
-          Ayran is the Turkish national drink, which is made from yoghurt and milk and is mostly known worldwide.</p>    
-    </p>
-</div>
-    <div id="likeArea">
-        <button class="like_btn">
-            <span id="icon"><i class="like"></i></span>
-            <span id="count">0</span> Like
-         </button>
-        </div> 
 </div>
 <div class="textFieldRight">
     <h3>Comments: </h3>
@@ -86,16 +84,15 @@
     <form>
         <label for="nickname"></label>
         <input id="nickname" type="text" placeholder="Nickname" required>
-        <label for="userComment"></label>
+        <label for="userComment"></label><br>
         <textarea id="userComment" placeholder="Add your Comment" required></textarea>
         <br>
         <input id="button" type="submit" value="Send">
-    </form>
-    
+    </form>  
 </div>
 <div class="footer">
-<div class="partinglineAdana"></div>
-<footer class="footline"><h4 class="author">Author: Kamil Durhan</h4>
+<footer>
+    <h4 class="author">Author: Kamil Durhan</h4>
     <h5>Share this on</h5>
         <a href="https://www.facebook.com/sharer/sharer.php?u=kamilsblog">
             <img class="logo" src="\img/facebooklogo.svg" alt="facebooklogo"></a>
@@ -105,6 +102,6 @@
             <img class="logo" src="\img/pinterestlogo.svg" alt="pinterestlogo"></a>
         <a href="https://www.linkedin.com/shareArticle?mini=true&url=kamilsblog">
             <img class="logo" src="\img/linkedinlogo.svg" alt="linkedInlogo"></a>
-</footer>
+</footer></div>
 </body>
 </html>
