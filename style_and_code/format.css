@@ -3,7 +3,8 @@
 body
 {
     background-color: rgb(20, 192, 135);
-    
+    display: grid;
+    height: 100%;
 }
 nav 
 {
@@ -16,6 +17,16 @@ nav
 h1
 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+u
+{
+    color: green;
+}
+
+h2
+{
     text-align: center;
 }
 .headline
@@ -36,18 +47,18 @@ h1
 
 .imagePreview
 {
-    width: 40%;
-    height: 45%;
-    display: block;
+    width: 60%;
+    display: grid;
     margin-left: 30%;
     margin-right: 30%;
     margin-top: 15px;
 }
 .blogImage
 {
-    filter:drop-shadow(10px 20px 10px gray);
-    width: 60%;
-    height: 60%;
+    filter:drop-shadow(20px 0px 10px rgb(105, 91, 10));
+    width: 70%;
+    height: 70%;
+    margin-left: 20%;
 }
 .dropdown-content a:hover {background-color: black}
 .dropdown:hover .dropdown-content {display: block;}
@@ -67,4 +78,23 @@ li
 li::marker
 {
     color: #0346ac;
+}
+
+figure
+{
+    text-align: center;
+    color: blueviolet;
+    font-weight: bold;
+}
+
+figcaption
+{
+    margin-left: 15%;
+}
+
+blockquote
+{
+    text-align: center;
+    color: turquoise;
+    font-size: 35px;
 }

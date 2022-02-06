@@ -1,0 +1,25 @@
+.author
+{
+    color: black;
+    font-weight: bold;
+    font-family: cursive;
+}
+.partingline
+{
+    border: 2px solid turquoise;
+    display: inline-block;
+}
+
+h5
+{
+    font-size: x-large;
+}
+.footline
+{
+    display: inline-block;
+    color: turquoise;
+}
+
+
+
+
