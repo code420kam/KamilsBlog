@@ -44,4 +44,46 @@
         color: turquoise;
         text-align: center;
     }
-    
+    .indexContainer
+    {
+        display: flex;
+        grid-template-columns: repeat(2, 1fr);  
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        grid-template-areas:
+        "blogheader" "blogheader" "blogheader"
+        "previewContainer"
+        "footer" "footer";
+    }
+   .previewContainer
+   {
+       display: flex;
+       flex-wrap: wrap;
+       flex-direction: column;
+   }
+
+   .aboutMeContainer
+   {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 15% 70% 15%;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+        
+        .aboutMe
+        {
+            grid-area: 2 / 1 / 3 / 2;
+            margin-top: 3%;
+        }
+
+        .aboutMeImage
+        {
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            width: 45%;
+        }
+        
+   
