@@ -86,4 +86,24 @@
             width: 45%;
         }
         
-   
+        @media screen and (max-width:600px) 
+        {
+         body
+            {
+                height: 50%;
+                background-color: white;
+            }
+            .container
+            {
+                display: flex;
+                flex-direction: column;
+            }
+            .blogImage
+            {
+                filter: none;
+            }
+            h2, .blogField, .textFieldLeft, .textFieldRight
+            {
+                font-size: small;
+            }   
+        }
